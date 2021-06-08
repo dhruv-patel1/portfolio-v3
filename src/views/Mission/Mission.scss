@@ -1,0 +1,78 @@
+.mission-container{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .text-box{
+        font-size: 44px;
+
+        @media(max-width: 1000px){
+            font-size: 33px;
+        }
+        @media(max-width: 750px){
+            font-size: 22px;
+        }
+        @media(max-width: 550px){
+            font-size: 16px;
+        }
+        @media(max-width: 430px){
+            font-size: 12px;
+        }
+
+        @media(max-height: 700px){
+            font-size: 30px;
+            @media (max-width: 700px) {
+                font-size: 20px;
+            }
+            @media (max-width: 460px) {
+                font-size: 12px;
+            }
+            @media (max-width: 300px) {
+                font-size: 9px;
+            }
+        }
+        @media(max-height: 500px){
+            font-size: 20px;
+
+            @media(max-width: 600px){
+                font-size: 14px;
+            }
+            @media(max-width: 350px){
+                font-size: 10px;
+            }
+        }
+    }
+   
+}
+
+.svg-container{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    .svg{
+        @media(max-height: 700px){
+            width: 75%;
+            height: 75%;
+        }
+        @media(max-width: 1000px){
+            width: 60%;
+            height: 60%;
+        }
+    }
+}

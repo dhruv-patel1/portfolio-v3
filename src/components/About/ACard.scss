@@ -1,0 +1,96 @@
+.main-container{
+    height: 80%;
+    width: 75%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(92, 92, 92);
+}
+
+.inner-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text-container{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text{
+        font-size: 64px;
+        font-weight: 800;
+        color: white;
+        font-family: 'Hammersmith One', sans-serif;
+
+        @media(max-width: 1400px){
+            font-size: 48px;
+        }
+        @media(max-width: 1100px){
+            font-size: 32px;
+        }
+        @media(max-width: 750px){
+            font-size: 24px;
+        }
+        @media(max-width: 550px){
+            font-size: 16px;
+        }
+        @media(max-width: 350px){
+            font-size: 12px;
+        }
+
+
+        @media(max-height: 750px){
+            font-size: 48px;
+
+            @media(max-width: 1050px){
+                font-size: 32px;
+            }
+            @media(max-width: 700px){
+                font-size: 24px;
+            }
+            @media(max-width: 550px){
+                font-size: 16px;
+            }
+            @media(max-width: 350px){
+                font-size: 12px;
+            }
+        }
+
+        @media(max-height: 400px){
+            font-size: 32px;
+            @media(max-width: 700px){
+                font-size: 24px;
+            }
+            @media(max-width: 550px){
+                font-size: 16px;
+            }
+            @media(max-width: 350px){
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.more-container{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .down-img{
+        height: 30px;
+        width: 90px;
+    }
+}
+
+

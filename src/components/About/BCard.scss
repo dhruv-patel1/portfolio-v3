@@ -1,0 +1,350 @@
+.b-main-container{
+    height: 80%;
+    width: 75%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(92, 92, 92);
+}
+
+.b-inner-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up-div, .down-div{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-div{
+    height: 76%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    @media(max-width: 900px){
+        flex-direction: column;
+    }
+
+    .left{
+        height: 100%;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media(max-width: 900px){
+            height: 100%;
+            width: 100%;
+        }
+        
+
+        .left-content{
+            height: 90%;
+            width: 90%;
+
+            display: flex;
+            flex-direction: column;
+
+            .summary{
+                height: 60%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                padding: 2px 0px;
+
+                @media(max-width: 1700px){
+                    font-size: 14px;
+                }
+                @media(max-width: 1350px){
+                    font-size: 12px;
+                }
+                @media(max-width: 1100px){
+                    font-size: 11px;
+                }
+                @media(max-width: 600px){
+                    font-size: 10px;
+                }
+                @media(max-width: 400px){
+                    font-size: 9px;
+                }
+
+                @media(max-height: 850px){
+                    font-size: 12px;
+                    @media(max-width: 1300px){
+                        font-size: 11px;
+                    }
+                    @media(max-width: 1000px){
+                        font-size: 10px;
+                    }
+                    @media(max-width: 500px){
+                        font-size: 9px;
+                    }
+                    @media(max-width: 375px){
+                        font-size: 8px;
+                    }
+                    @media(max-width: 300px){
+                        font-size: 7px;
+                    }
+                }
+
+                @media(max-height: 700px){
+                    font-size: 10px;
+                    @media(max-width: 950px){
+                        font-size: 9px;
+                    }
+                    @media(max-width: 510px){
+                        font-size: 8px;
+                    }
+                    @media(max-width: 400px){
+                        font-size: 7px;
+                    }
+                }
+
+                @media(max-height: 550px){
+                    font-size: 9px;
+                    @media (max-width: 1200px) {
+                        font-size: 8px;
+                    }
+                    @media (max-width: 500px) {
+                        font-size: 7px;
+                    }
+                    @media (max-width: 350px) {
+                        font-size: 6px;
+                    }
+                }
+
+                .text{
+                    padding: 0px 25px;
+                    font-family: 'Hammersmith One', sans-serif;
+                    color: white;
+                }
+            }
+
+            .skills{
+                height: 40%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                @media(max-width: 1700px){
+                    font-size: 14px;
+                }
+                @media(max-width: 1350px){
+                    font-size: 12px;
+                }
+                @media(max-width: 1100px){
+                    font-size: 11px;
+                }
+                @media(max-width: 600px){
+                    font-size: 10px;
+                }
+                @media(max-width: 400px){
+                    font-size: 9px;
+                }
+
+                @media(max-height: 850px){
+                    font-size: 12px;
+                    @media(max-width: 1300px){
+                        font-size: 11px;
+                    }
+                    @media(max-width: 1000px){
+                        font-size: 10px;
+                    }
+                    @media(max-width: 500px){
+                        font-size: 9px;
+                    }
+                    @media(max-width: 375px){
+                        font-size: 8px;
+                    }
+                    @media(max-width: 300px){
+                        font-size: 7px;
+                    }
+                }
+
+                @media(max-height: 700px){
+                    font-size: 10px;
+                    @media(max-width: 950px){
+                        font-size: 9px;
+                    }
+                    @media(max-width: 510px){
+                        font-size: 8px;
+                    }
+                    @media(max-width: 400px){
+                        font-size: 7px;
+                    }
+                }
+
+                @media(max-height: 550px){
+                    font-size: 9px;
+                    @media (max-width: 1200px) {
+                        font-size: 8px;
+                    }
+                    @media (max-width: 500px) {
+                        font-size: 7px;
+                    }
+                    @media (max-width: 350px) {
+                        font-size: 6px;
+                    }
+                }
+
+                .text-box{
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    .text{
+                        padding: 0px 25px;
+                        font-family: 'Hammersmith One', sans-serif;
+                        color: white;
+                    }
+                }
+
+                .grid-box{
+                    height: 80%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+
+                    .skill-list{
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        justify-content: center;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        width: 60%;
+
+                        @media(max-width:900px){
+                            width: 80%;
+                        }
+                        @media(max-width:500px){
+                            width: 100%;
+                        }
+    
+                        .list-item{
+    
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            
+                            .skill-bullet{
+                                height: 30px;
+                                width: 30px;
+                                margin-left: 10%;
+                                margin-right: 10%;
+
+                                @media(max-width: 400px){
+                                    padding: 0px 10px;
+                                }
+
+                                @media(max-width: 1350px){
+                                    height: 20px;
+                                    width: 20px;
+                                }
+
+                                @media(max-height: 550px){
+                                    height: 15px;
+                                    width: 15px;
+                                }
+
+                            }
+    
+                            .skill-text{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-family: 'Hammersmith One', sans-serif;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .right{
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media(max-width: 900px){
+            display: none;
+        }
+
+
+        .right-content{
+            background-color: white;
+            border-radius: 10px;
+
+            .pic{
+                height: 350px;
+                width: 350px;
+
+                @media(max-width: 1700px){
+                    height: 300px;
+                    width: 300px;
+                }
+                @media(max-width: 1350px){
+                    height: 250px;
+                    width: 250px;
+                }
+                @media(max-width: 1100px){
+                    height: 200px;
+                    width: 200px;
+                }
+                
+                @media(max-height: 850px){
+                    height: 250px;
+                    width: 250px;
+                    @media(max-width: 1300px){
+                        height: 200px;
+                        width: 200px;
+                    }
+                    @media(max-width: 1000px){
+                        height: 150px;
+                        width: 150px;
+                    }
+                }
+                @media(max-height: 700px){
+                    height: 200px;
+                    width: 200px;
+                    @media(max-width: 950px){
+                        height: 150px;
+                        width: 150px;
+                    }
+                }
+                @media(max-height: 550px){
+                        height: 150px;
+                        width: 150px;
+                        @media (max-width: 1200px) {
+                            height: 100px;
+                            width: 100px;
+                        }
+                }
+
+            }
+        }
+    }
+}
+
+.d-img, .up-img{
+    height: 30px;
+    width: 90px;
+}

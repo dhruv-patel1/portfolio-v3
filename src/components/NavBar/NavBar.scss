@@ -1,0 +1,97 @@
+
+.headroom{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 10px 13px -7px #e3e3e3, 0px 2px 31px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #e3e3e3, 0px 2px 31px 5px rgba(0,0,0,0); 
+    background-color: white;
+    position: relative;
+    z-index: 20;
+}
+
+//all related to logo in header
+.logo-container{
+    height: 70px;
+    width: 70px;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+
+//links in the header
+.links-container{
+    height: 60px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 18%;
+
+    
+}
+
+.header-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    @media (max-width: 780px){
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.nav-item{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+    color: black;
+    padding: 0px 25px; 
+}
+
+.header-item:hover .hover-line{
+    display: flex;
+}
+
+.resume{
+    text-decoration: none;
+}
+
+
+
+//theme controller in the header
+.toggle-container{
+    height: 50px;
+    width: 65px;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+
+
+.hover-line{
+    height: 1.3px;
+    width: 40px;
+    background-color: black;
+    display: none;
+    margin-top: -7px;
+}
+
+//right nav styles
+.right-nav-container{
+    height: 100%;
+    width: 100%;
+}
