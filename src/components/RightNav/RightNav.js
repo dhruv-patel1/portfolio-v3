@@ -29,7 +29,7 @@ const Menu = styled.div`
     }
 
     @media (max-width: 780px){
-        padding-top: 80px;
+        margin-top: 60px;
         position: fixed;
         transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
         transition: transform 1s ease-in-out;

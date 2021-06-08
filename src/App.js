@@ -10,6 +10,8 @@ import About from "./views/About/About";
 import Contact from "./views/Contact/Contact";
 import Loading from "./components/Loading/Loading";
 
+import ReactGa from "react-ga";
+
 const App = () =>{
 
   const [loading, setLoading] = useState(false);
@@ -19,6 +21,9 @@ const App = () =>{
       setTimeout(() => {
         setLoading(false);
       }, 2000);
+
+      ReactGa.initialize('UA-199118815-1');
+      ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
