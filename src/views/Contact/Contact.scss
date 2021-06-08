@@ -332,18 +332,19 @@
     background-color: rgb(238, 238, 238);
 
     .copyright{
+        width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: row;
         align-items: center;
         font-family: 'Hammersmith One', sans-serif;
-        font-size: 12px;
+        font-size: 10px;
         color: #606060;
 
         .copy-svg{
             height: 10px;
             width: 10px;
-            padding: 0px 5px;
+            margin-right: 0.5%;
         }
     }
 }
