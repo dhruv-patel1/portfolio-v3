@@ -7,7 +7,6 @@ import skills from "../../assets/skills.svg";
 import about from "../../assets/about.svg";
 import contact from "../../assets/contact.svg";
 import res from "../../assets/resume.svg";
-import {Tween, Reveal} from "react-gsap";
 
 const Menu = styled.div`
     display: none;
@@ -162,12 +161,6 @@ const RightNav = ({open, handleClose}) =>{
     return(
         
                     <Menu open={open}>
-                        <Reveal>
-                            <Tween
-                                from={{opacity: 0, x: "100"}}
-                                duration={1}
-                                ease="power2.out"
-                            >
                                 <div className="menuItems-container">
                                     <Link className="right-item" activeClass="active" to="featured" spy={true} smooth={true} duration={1000} onClick={handleClose}>
                                         <img className="rightnav-icon" src={project} alt="" />
@@ -196,8 +189,6 @@ const RightNav = ({open, handleClose}) =>{
 
                         
                                 </div>
-                            </Tween>
-                        </Reveal>
                     </Menu>
                 
     )

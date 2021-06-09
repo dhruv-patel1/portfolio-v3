@@ -131,7 +131,7 @@ const Mission = () =>{
                     </defs>
                     </svg>
                 </Tween>
-            </div>
+            </div> 
             
         </div>
     )
