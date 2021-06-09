@@ -6,8 +6,7 @@ import { Tween, SplitChars, Reveal, Timeline } from 'react-gsap';
 const Mission = () =>{
     return(
         <div className="mission-container">
-            <Reveal>
-            <Tween from={{x: 460, opacity:0, backgroundColor: "black"}} duration={2} ease="power2.out">
+        
             <div className="text-container">
                 <div className="text-box">
                     <Reveal repeat>
@@ -22,9 +21,8 @@ const Mission = () =>{
                     </Reveal>
                 </div>
             </div>
-            </Tween>
+        
 
-            <Tween from={{x: -460, opacity:0, backgroundColor: "black"}} duration={2} ease="power2.out">
             <div className="svg-container">
                 <Tween from={{ opacity:0, scale: 0.1}} delay={1} duration={1} ease="power2.out">
                     <svg width="500" height="336" viewBox="0 0 392 264" fill="none" xmlns="http://www.w3.org/2000/svg" className="svg">
@@ -134,8 +132,6 @@ const Mission = () =>{
                     </svg>
                 </Tween>
             </div>
-            </Tween>
-            </Reveal>
             
         </div>
     )

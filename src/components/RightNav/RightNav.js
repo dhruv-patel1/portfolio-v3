@@ -162,7 +162,7 @@ const RightNav = ({open, handleClose}) =>{
     return(
         
                     <Menu open={open}>
-                        <Reveal repeat>
+                        <Reveal>
                             <Tween
                                 from={{opacity: 0, x: "100"}}
                                 duration={1}
