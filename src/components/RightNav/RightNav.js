@@ -12,10 +12,10 @@ const Menu = styled.div`
     display: none;
     height: 100%;
     width: 60%;
-    background-color: #ECF0F1;
+    background: linear-gradient(90deg, #FCFCFC 0%, #D3D3D3 100%);
     right:0;
     top:0;
-    z-index: 2;
+    z-index: 20;
     overflow-x: hidden;
     overflow-y: hidden;
     justify-content: center;
