@@ -5,7 +5,7 @@ import two from "./images/runner.svg";
 import three from "./images/vid.svg";
 import four from "./images/chef.svg";
 import five from "./images/port.svg";
-import six from "./images/relax.svg";
+import six from "./images/maze.svg";
 
 import git from "./images/github.svg";
 import link from "./images/link.svg";

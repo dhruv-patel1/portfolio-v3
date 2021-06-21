@@ -46,11 +46,11 @@ export const data = [
     },
     {
         key: "f",
-        imgPath: "relax.svg",
-        title: "Relaxation Nirvana",
-        description: "A web app built to help create peaceful spaces where users can track and customize their meditation sessions.",
-        gitLink: "",
-        demoLink: "",
-        stack: ["HTML", "CSS", "JavaScript"]
+        imgPath: "maze.svg",
+        title: "Maze Generator",
+        description: "Interactive maze generation that takes some dimensions and generates a maze using recursive backtracking and depth-first search.",
+        gitLink: "https://github.com/dhruv-patel1/WebGL-Maze-Generation",
+        demoLink: "https://dhruv-patel1.github.io/WebGL-Maze-Generation/",
+        stack: ["HTML", "WebGL", "JavaScript"]
     }
 ];
