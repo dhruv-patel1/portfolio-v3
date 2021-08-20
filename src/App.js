@@ -20,7 +20,7 @@ const App = () =>{
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
-      }, 2000);
+      }, 1500);
 
       ReactGa.initialize('UA-199118815-1');
       ReactGa.pageview(window.location.pathname + window.location.search);

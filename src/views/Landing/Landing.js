@@ -8,14 +8,14 @@ const Landing = () =>{
         <div className="landing-container" id="landing">
 
             <div className="landing-text">    
-                <Tween from={{opacity: 0, y: '-100px'}} duration={1.5} ease="power2.out">
+                <Tween from={{opacity: 0, y: '-100px'}} duration={1} ease="power2.out">
                     <div className='l-container'>
                        <p className="l-text1">Hi,</p>
                         <p className="l-text1">I'm Dhruv.</p>
                     </div>
                 </Tween>
 
-                <Tween from={{opacity: 0, y: '-60px'}} duration={1.5} ease="power2.out">
+                <Tween from={{opacity: 0, y: '-60px'}} duration={1} ease="power2.out">
                     <div className='l-container2'>
                         <p className="l-text2">Passionate Designer</p>
                          <p className="l-text2">& Developer</p>
@@ -24,7 +24,7 @@ const Landing = () =>{
             </div>
 
             
-            <Tween from={{x: 260, opacity:0}} delay={1} duration={1} ease="power2.out">
+            <Tween from={{x: 260, opacity:0}} delay={0.5} duration={1} ease="power2.out">
                 <div className="landing-svg">
                     <svg width="601" height="519" viewBox="0 0 561 479" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M97.025 345.11L245.255 443.142C247.17 444.409 249.348 445.077 251.566 445.077C253.784 445.077 255.963 444.409 257.878 443.142L434.775 327.442C436.683 326.201 438.269 324.41 439.372 322.253C440.474 320.095 441.055 317.646 441.055 315.153C441.055 312.659 440.474 310.21 439.372 308.053C438.269 305.895 436.683 304.105 434.775 302.863L284.708 205.944C282.812 204.712 280.665 204.063 278.48 204.063C276.295 204.063 274.148 204.712 272.253 205.944L97.0811 320.531C95.1698 321.767 93.5802 323.552 92.4727 325.707C91.3652 327.862 90.779 330.309 90.7733 332.802C90.7676 335.295 91.3426 337.746 92.4403 339.907C93.5379 342.068 95.1193 343.863 97.025 345.11Z" fill="#868686"/>
